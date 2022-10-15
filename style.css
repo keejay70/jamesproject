@@ -1,3 +1,36 @@
+body {
+    max-width: 100vw;
+    height: 100vh; 
+}
+
 .imgban {
-    margin: 10%;
+    background-image: url("assets/kbanner2.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.imgban h1 {
+    width: auto;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.row div {
+    margin-bottom: 50px;
+}
+
+#onelayout {
+    margin: 5%;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    /* height: 100%;  */
+    object-fit: contain;
 }
