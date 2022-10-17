@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "builds": [{ "src": "home.html", "use": "@now/node-server" }]
+    "builds": [{ "src": "index.html", "use": "@now/node-server" }]
     ,
     "routes": [
-      { "src": "/(.*)", "dest": "/home.html" }
+      { "src": "/(.*)", "dest": "/index.html" }
     ]
 }
